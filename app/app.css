@@ -1,0 +1,44 @@
+body {
+	background-color: #fcfdff; 
+}
+
+.sidebar {
+    position: fixed;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    background-color: white;
+    border-right: 1px solid #eee;
+}
+
+.center {
+    margin: auto;
+    padding: 10px;
+}
+
+hr {
+ 	border-top: 1px solid #8c8b8b;
+}
+
+.tile {
+	border: 1px solid #8c8b8b;
+}
+
+
+.fa{
+	padding: 5px;
+}
+
+.overview{
+	opacity: 0.5;
+}
+
+a{
+	text-decoration:none !important;
+
+}
